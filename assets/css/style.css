@@ -47,21 +47,12 @@ header h1 {
 }
 
 /*Setting the header nav buttons to the right*/
-header nav {
+.navbar {
   float: right;
 }
 
-/*setting the rules for the unordered lists across the page */
-ul li {
-  list-style-type: none;
-  margin-right: 25px;
-  display: inline-block;
-  margin-left: 25px;
-  font-size: 20px;
-}
-
 /*setting the rules for the nav links*/
-nav a {
+.nav-link {
   color: #92CCCE;
   text-decoration: none;
   border-bottom: solid;
