@@ -23,6 +23,21 @@
   text-align: center;
 }
 
+/*Work Cards*/
+.content {
+  padding: 50px;
+}
+.sectionHeading {
+  text-align: center;
+}
+.work  {
+  padding: 0px 30px 30px 30px;
+}
+.cardContainer {
+  text-align: center;
+  padding: 10px;
+}
+
 
 /*style rules for the body
 body { 
