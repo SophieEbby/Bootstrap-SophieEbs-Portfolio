@@ -10,22 +10,25 @@
   <title>Sophie Ebsworth // Web Developer</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
+  <!--Bootstrap NavBar-->
   <header>
-    <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary customNav">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary customNav">
       <div class="container-fluid">
         <a class="navbar-brand" href="#"><img src="assets/images/girl-code-icon.png">Sophie Ebsworth</a>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link" href="#">About Me</a>
+              <a class="nav-link" href="#about">About Me</a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                 aria-expanded="false">Work</a>
               <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#work">Applications</a></li>
                 <li><a class="dropdown-item" href="#">Skills</a></li>
               </ul>
             </li>
@@ -38,77 +41,125 @@
     </nav>
   </header>
 
-
-  <!-- hero banner 
-  <section class="hero-image">
-    <div class="hero-text">
-      <h2>Hello! Welcome To My Portfolio</h2>
+  <!-- Jumbotron -->
+  <div class="p-5 mb-4 bg-body-tertiary rounded-3 heroBackground">
+    <div class="container-fluid py-5 jumboCopy">
+      <h1 class="display-5 fw-bold">Hello! Welcome To My Portfolio</h1>
     </div>
-  </section> -->
+  </div>
+  <!-- End jumbotron -->
 
-  <!-- <main class="page-wrapper">
-    about me 
-    <section class="page-section" id="about">
-      <h2>About Me</h2>
-      <div class="vl"></div>
-      <p>I am a 28 year old female, living in Southampton England. I am a qualifed SCADA Engineer, having spent 9 years
-        developing control systems for various industries such as Railway, Airports and Water. I have a BSc (Hons) in
-        Electrical and Electronic Engineering and I gained my further education through an apprenticeship. I am now
-        looking to develop my skills further and become a Front End Developer.</p>
+  <!-- About Me -->
+  <div class="container text-center" id="about">
+    <div class="row align-items-start">
+      <div class="col">
+        <h2>About Me</h2>
       </div>
-    </section> -->
+      <div class="col">
+        <p>I am a 28 year old female, living in Southampton England. I am a qualifed SCADA Engineer, having spent 9
+          years
+          developing control systems for various industries such as Railway, Airports and Water. I have a BSc (Hons) in
+          Electrical and Electronic Engineering and I gained my further education through an apprenticeship. I am now
+          looking to develop my skills further and become a Front End Developer.</p>
+      </div>
+    </div>
+  </div>
 
-  <!-- Work heading 
-    <section class="page-section" id="work">
-      <h2>Work</h2>
-      <div class="vl"></div> -->
-  <!--Work grid section
-      <section class="work-section"> -->
-  <!--Challenge 1
-        <a href="https://sophieebby.github.io/horiseon-code-refactor/" target="_blank" class="challenge1">
-          <div class="text">
-            <h3>Challenge 1 - Horiseon Marketing</h3>
+  <!--Work-->
+
+  <!-- Cards -->
+  <div class="container-fluid content" id="work">
+    <h2 class="sectionHeading">Work</h2>
+    <div class="row">
+      <!--Row 1-->
+      <!-- Card 1 -->
+      <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
+        <div class="card">
+          <img src="assets/images/horiseon-code-refactor1.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Challenge 1 - Horiseon Marketing</h5>
             <p>Code Refactor</p>
+            <a href="https://sophieebby.github.io/horiseon-code-refactor/" target="_blank" class="btn btn-primary">Click
+              Here To See</a>
           </div>
-          <img src="assets/images/horiseon-code-refactor1.png" alt="Screenshot of Horiseon Website" />
-        </a> -->
-  <!--Application 2
-        <a href="" class="Application2">
-          <div class="text">
-            <h3>Application 2</h3>
-            <p>Coming Soon</p>
-          </div>
-          <img src="assets/images/02-portfolio-1.jpg" alt="Image of red lights on black background" />
-        </a> -->
-  <!--Application 3
-        <a href="" class="Application3">
-          <div class="text">
-            <h3>Application 3</h3>
-            <p>Coming Soon</p>
-          </div>
-          <img src="assets/images/02-portfolio-2.jpg" alt="Image of a laptop screen with code and calculator" />
-        </a> -->
-  <!--Application 4
-        <a href="" class="Application4">
-          <div class="text">
-            <h3>Application 4</h3>
-            <p>Coming Soon</p>
-          </div>
-          <img src="assets/images/02-portfolio-3.jpg"
-            alt="Image of half blue, half pink and a blue car on the pink side" />
-        </a> -->
-  <!--Application 5
-        <a href="" class="Application5">
-          <div class="text">
-            <h3>Application 5</h3>
-            <p>Coming Soon</p>
-          </div>
-          <img src="assets/images/02-portfolio-4.jpg" alt="Image of the sea with a surfer in the water" />
-        </a>
-      </section>
-    </section>-->
+        </div>
+      </div>
+      <!-- End card 1 -->
 
-  <!-- contact 
+      <!-- Card 2 -->
+      <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
+        <div class="card">
+          <img src="assets/images/Portfolio1.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Challenge 2 - Portfolio</h5>
+            <p>Portfolio</p>
+            <a href="https://sophieebby.github.io/Sophie-Ebsworth-Portfolio/" target="_blank"
+              class="btn btn-primary">Click Here To See</a>
+          </div>
+        </div>
+      </div>
+      <!-- End card 2 -->
+
+      <!-- Card 3 -->
+      <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
+        <div class="card">
+          <img src="#" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Application 3</h5>
+            <p>Coming Soon</p>
+            <a href="#" target="_blank"
+              class="btn btn-primary">Coming Soon</a>
+          </div>
+        </div>
+      </div>
+      <!-- End card 3 -->
+
+      <!--Row 2-->
+      <div class="row">
+
+        <!-- Card 4 -->
+        <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
+          <div class="card">
+            <img src="#" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Application 3</h5>
+              <p>Coming Soon</p>
+              <a href="#" target="_blank"
+                class="btn btn-primary">Coming Soon</a>
+            </div>
+          </div>
+        </div>
+        <!-- End card 4 -->
+  
+        <!-- Card 5 -->
+        <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
+          <div class="card">
+            <img src="#" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Application 3</h5>
+              <p>Coming Soon</p>
+              <a href="#" target="_blank"
+                class="btn btn-primary">Coming Soon</a>
+            </div>
+          </div>
+        </div>
+        <!-- End card 5 -->
+  
+        <!-- Card 6 -->
+        <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
+          <div class="card">
+            <img src="#" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Application 3</h5>
+              <p>Coming Soon</p>
+              <a href="#" target="_blank"
+                class="btn btn-primary">Coming Soon</a>
+            </div>
+          </div>
+        </div>
+        <!-- End card 6 -->
+
+      <!-- contact 
     <section class="page-section" id="contact">
       <h2>Contact Me</h2>
       <div class="vl"></div>
@@ -130,8 +181,14 @@
     </section>
   </main>-->
 
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+      <!-- JavaScript -->
+      <!-- Popper.js, then Bootstrap JS -->
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
