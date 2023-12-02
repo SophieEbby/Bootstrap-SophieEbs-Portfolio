@@ -14,7 +14,7 @@
   justify-content: center;
 }
 
-/* Jumbotron copy */
+/* Jumbotron Copy */
 .jumboCopy {
   width: 70%;
   min-width: 500px;
@@ -24,16 +24,24 @@
 }
 
 /*Work Cards*/
-.content {
-  padding: 50px;
+.workContent {
+  padding: 20px;
 }
 .sectionHeading {
   text-align: center;
 }
-.work  {
-  padding: 0px 30px 30px 30px;
-}
+
 .cardContainer {
   text-align: center;
   padding: 10px;
+}
+
+/*Skills*/
+.skillsContent {
+  padding: 20px;
+}
+
+/*Contact*/
+.contactContent{
+  padding: 20px;
 }
