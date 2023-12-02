@@ -10,6 +10,7 @@
   <title>Sophie Ebsworth // Web Developer</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/6828c83116.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
@@ -29,11 +30,11 @@
                 aria-expanded="false">Work</a>
               <ul class="dropdown-menu">
                 <li><a class="dropdown-item" href="#work">Applications</a></li>
-                <li><a class="dropdown-item" href="#">Skills</a></li>
+                <li><a class="dropdown-item" href="#skills">Skills</a></li>
               </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contact Me</a>
+              <a class="nav-link" href="#contact">Contact Me</a>
             </li>
           </ul>
         </div>
@@ -66,11 +67,10 @@
   </div>
 
   <!--Work-->
-
   <!-- Cards -->
   <div class="container-fluid content" id="work">
     <h2 class="sectionHeading">Work</h2>
-    <div class="row">
+    <div class="row work">
       <!--Row 1-->
       <!-- Card 1 -->
       <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
@@ -99,87 +99,92 @@
         </div>
       </div>
       <!-- End card 2 -->
-
       <!-- Card 3 -->
       <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
         <div class="card">
-          <img src="#" class="card-img-top" alt="...">
+          <img src="https://placehold.co/600x400" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Application 3</h5>
             <p>Coming Soon</p>
-            <a href="#" target="_blank"
-              class="btn btn-primary">Coming Soon</a>
+            <a href="#" target="_blank" class="btn btn-primary">Coming Soon</a>
           </div>
         </div>
       </div>
       <!-- End card 3 -->
+    </div>
 
-      <!--Row 2-->
-      <div class="row">
-
-        <!-- Card 4 -->
-        <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
-          <div class="card">
-            <img src="#" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Application 3</h5>
-              <p>Coming Soon</p>
-              <a href="#" target="_blank"
-                class="btn btn-primary">Coming Soon</a>
-            </div>
-          </div>
-        </div>
-        <!-- End card 4 -->
-  
-        <!-- Card 5 -->
-        <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
-          <div class="card">
-            <img src="#" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Application 3</h5>
-              <p>Coming Soon</p>
-              <a href="#" target="_blank"
-                class="btn btn-primary">Coming Soon</a>
-            </div>
-          </div>
-        </div>
-        <!-- End card 5 -->
-  
-        <!-- Card 6 -->
-        <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
-          <div class="card">
-            <img src="#" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Application 3</h5>
-              <p>Coming Soon</p>
-              <a href="#" target="_blank"
-                class="btn btn-primary">Coming Soon</a>
-            </div>
-          </div>
-        </div>
-        <!-- End card 6 -->
-
-      <!-- contact 
-    <section class="page-section" id="contact">
-      <h2>Contact Me</h2>
-      <div class="vl"></div>
-      <ul>
-        <li>
-          <a href="#">sophieebsworth@hotmail.co.uk</a>
-        </li>
-        <li>
-          <a href="https://github.com/SophieEbby" target="_blank">GitHub</a>
-        </li>
-        <li>
-          <a href="https://www.instagram.com/sophieebby/" target="_blank">Instagram</a>
-        </li>
-        <li>
-          <a href="https://open.spotify.com/user/21kntwkeviqield7pjiiurbny" target="_blank">Spotify</a>
-        </li>
+    <!--Skills Section-->
+    <h2 class="sectionHeading"id="skills">Skills</h2>
+    <div class="row d-flex justify-content-center">
+    <div class="card " style="width: 18rem;">
+      <div class="card-header">
+        Skills
+      </div>
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item">HTML</li>
+        <li class="list-group-item">CSS</li>
+        <li class="list-group-item">Bootstrap</li>
+        <li class="list-group-item">Git</li>
+        <li class="list-group-item">GitLab</li>
+        <li class="list-group-item">GitHub</li>
+        <li class="list-group-item">Visual Studios</li>
       </ul>
+    </div>
+  </div>
 
+    <!-- Contact-->
+    <!-- Cards -->
+    <div class="container-fluid content" id="contact">
+      <h2 class="sectionHeading">Contact Me</h2>
+      <div class="row contact">
+        <!--Row 1-->
+        <!-- Card 1 -->
+        <div class="col-md-4 mb-3 mb-md-0">
+          <div class="card py-4 h-100">
+            <div class="card-body text-center">
+              <img src="assets/images/location-pin.png">
+              <h4 class="text-uppercase m-0">Address</h4>
+              <hr class="my-4" />
+              <div class="small text-black-50">Southampton,United Kingdom</div>
+            </div>
+          </div>
+        </div>
+        <!-- End card 1 -->
+        <!-- Card 2 -->
+        <div class="col-md-4 mb-3 mb-md-0">
+          <div class="card py-4 h-100">
+            <div class="card-body text-center">
+              <img src="assets/images/gmail.png">
+              <h4 class="text-uppercase m-0">Email</h4>
+              <hr class="my-4" />
+              <div class="small text-black-50">sophieebsworth@hotmail.co.uk</div>
+            </div>
+          </div>
+        </div>
+        <!-- End card 2 -->
+        <!-- Card 3 -->
+        <div class="col-md-4 mb-3 mb-md-0">
+          <div class="card py-4 h-100">
+            <div class="card-body text-center">
+              <img src="assets/images/smartphone.png">
+              <h4 class="text-uppercase m-0">Phone</h4>
+              <hr class="my-4" />
+              <div class="small text-black-50">(+44)77 123 45678</div>
+            </div>
+          </div>
+        </div>
+        <!-- End card 3 -->
+      </div>
     </section>
-  </main>-->
+  </main>
+
+  <footer>
+    <div class="social d-flex justify-content-center">
+      <a class="mx-2" href="https://www.instagram.com/sophieebby/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+      <a class="mx-2" href="https://open.spotify.com/user/21kntwkeviqield7pjiiurbny" target="_blank"><i class="fa-brands fa-spotify"></i></a>
+      <a class="mx-2" href="https://github.com/SophieEbby" target="_blank"><i class="fab fa-github"></i></a>
+    </div>
+  </footer>
 
       <!-- JavaScript -->
       <!-- Popper.js, then Bootstrap JS -->
