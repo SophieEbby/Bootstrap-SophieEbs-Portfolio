@@ -3,10 +3,26 @@
   box-sizing: border-box;
 }
 
+/*Text headings*/
+p, h2 {
+  color: #64a19d;
+}
+
+.sectionHeading {
+  text-align: center;
+  padding: 10px;
+}
+
+/*Custom Nav*/
+.customNav{
+  background-color:  #64a19d;
+  height: 60px;
+}
+
 /* Jumbotron  */
 .heroBackground {
-  height: calc(100vh - 25px);
-  background-image: url(../images/me-graduation.jpg);
+  height: calc(110vh - 25px);
+  background-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000000 100% ), url(../images/me-graduation.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
@@ -16,32 +32,72 @@
 
 /* Jumbotron Copy */
 .jumboCopy {
+  position: absolute;
   width: 70%;
   min-width: 500px;
   max-width: 700px;
-  color: white;
+  color: cornsilk;
   text-align: center;
+  bottom: 25px;
 }
 
-/*Work Cards*/
-.workContent {
-  padding: 20px;
-}
-.sectionHeading {
-  text-align: center;
+/*content*/
+.aboutContent {
+  padding-top: 60px;
 }
 
+/*content padding*/
+.workContent, .skillsContent, .contactContent {
+  padding-top: 50px;
+}
+
+.aboutContent, .workContent, .skillsContent {
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+/*Cards*/
 .cardContainer {
   text-align: center;
   padding: 10px;
 }
 
-/*Skills*/
-.skillsContent {
-  padding: 20px;
+.contactCard{
+  background-color: rgba(255, 255, 255, 0.6);
 }
 
-/*Contact*/
-.contactContent{
-  padding: 20px;
+/*Work Section*/
+.workCard {
+  border-color: #64a19d;
+  background-color: rgba(255, 255, 255, 0.3) ;
+}
+
+.workCard h5, p{
+  color: cornsilk;
+}
+
+.workbtn:hover{
+  background-color:#64a19d;
+  color: black;
+  font-weight: bold;
+}
+
+/*Footer*/
+footer a {
+  text-align: center;
+  height: 3rem;
+  width: 3rem;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 100%;
+  line-height: 3rem;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+footer a:hover {
+  text-decoration: none;
+  color: #64a19d;
+  font-size: larger;
+}
+
+.social{
+  padding: 60px;
 }
