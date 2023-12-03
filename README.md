@@ -4,11 +4,13 @@ Sophie Ebsworth Portfolio Using Bootstrap
 
 This website is to showcase me to other people and businesses. It explains a litle bit about me, examples of work that I've done in front end devleopment, the skills I'm developing from the Front End Development bootcamp and how to contact me. 
 
+This website is built by using bootstrap and is a way to show my understanding and skills of bootstrap. 
+
 ## Usage
 
-There is a nav bar at the top of the page which is a way to navigate to the relevant sections (About Me, Work - this is a drop down to applications and skills, Contact Me and a placeholder Resume Link)
+There is a nav bar at the top of the page which is a way to navigate to the relevant sections (About Me, Work - this is a drop down to applications and skills, Contact Me)
 
-![Screenshot of Portfolio page](https://github.com/SophieEbby/Sophie-Ebsworth-Portfolio/blob/main/assets/images/bootstrap-portfolio.png)
+![Screenshot of Portfolio page](https://github.com/SophieEbby/Bootstrap-SophieEbs-Portfolio/blob/main/assets/images/bootstrap-portfolio.png)
 
 Link to Portfolio: https://sophieebby.github.io/Bootstrap-SophieEbs-Portfolio/
 
@@ -16,7 +18,8 @@ Link to Portfolio: https://sophieebby.github.io/Bootstrap-SophieEbs-Portfolio/
 Thank you to the following websites for resource that I kept refering back to:
 - https://www.flaticon.com/free-icons/coder Coder icons created by Darius Dan - Flaticon
 - https://www.flaticon.com/free-icons/address Address icons created by Vector Valley - Flaticon
-- https://www.flaticon.com/free-icons/gmail Gmail icons created by Pixel perfect - Flaticon - https://www.flaticon.com/free-icons/app App icons created by Freepik - Flaticon
+- https://www.flaticon.com/free-icons/gmail Gmail icons created by Pixel perfect - Flaticon
+- https://www.flaticon.com/free-icons/app App icons created by Freepik - Flaticon
 - https://fontawesome.com/
 - https://getbootstrap.com/docs/5.3/getting-started/introduction/ - Bootstrap for the code and documentation
 - www.google.com - thank you for answering my questions to get things to work. 
