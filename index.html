@@ -14,134 +14,161 @@
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
-<body>
+<body id="page-top">
   <!--Bootstrap NavBar-->
+  <nav class="navbar navbar-expand-md fixed-top customNav">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="assets/images/girl-code-icon.png">Sophie Ebsworth</a>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About Me</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">Work</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#work">Applications</a></li>
+              <li><a class="dropdown-item" href="#skills">Skills</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact Me</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
   <header>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary customNav">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#"><img src="assets/images/girl-code-icon.png">Sophie Ebsworth</a>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link" href="#about">About Me</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                aria-expanded="false">Work</a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#work">Applications</a></li>
-                <li><a class="dropdown-item" href="#skills">Skills</a></li>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact Me</a>
-            </li>
-          </ul>
-        </div>
+    <!-- Jumbotron -->
+    <div class="p-5 bg-body-tertiary heroBackground">
+      <div class="container-fluid py-5 jumboCopy">
+        <h1 class="display-5 fw-bold">Hello, I'm Sophie Ebsworth! Welcome To My Portfolio</h1>
       </div>
-    </nav>
+    </div>
+    <!-- End jumbotron -->
   </header>
-
-  <!-- Jumbotron -->
-  <div class="p-5 mb-4 bg-body-tertiary rounded-3 heroBackground">
-    <div class="container-fluid py-5 jumboCopy">
-      <h1 class="display-5 fw-bold">Hello! Welcome To My Portfolio</h1>
-    </div>
-  </div>
-  <!-- End jumbotron -->
-
   <Main>
-    <!-- About Me -->
-    <div class="container text-center" id="about">
-      <div class="row align-items-start">
-        <div class="col">
-          <h2>About Me</h2>
-        </div>
-        <div class="col">
-          <p>I am a 28 year old female, living in Southampton England. I am a qualifed SCADA Engineer, having spent 9
-            years
-            developing control systems for various industries such as Railway, Airports and Water. I have a BSc (Hons)
-            in
-            Electrical and Electronic Engineering and I gained my further education through an apprenticeship. I am now
-            looking to develop my skills further and become a Front End Developer.</p>
+    <!-- About Me Section-->
+    <section class="bg-black aboutContent" id="about">
+      <div class="container text-center">
+        <div class="row align-items-start">
+          <div class="col">
+            <h2>About Me</h2>
+          </div>
+          <div class="col">
+            <p>I am a 28 year old female, living in Southampton England. I am a qualifed SCADA Engineer, having spent 9
+              years
+              developing control systems for various industries such as Railway, Airports and Water. I have a BSc (Hons)
+              in
+              Electrical and Electronic Engineering and I gained my further education through an apprenticeship. I am
+              now
+              looking to develop my skills further and become a Front End Developer.</p>
+          </div>
         </div>
       </div>
-    </div>
+    </section>
 
     <!--Work Section-->
-    <div class="container-fluid workContent" id="work">
-      <h2 class="sectionHeading">Work</h2>
-      <div class="row work"> <!--Row-->
-        <!-- Card 1 -->
-        <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
-          <div class="card">
-            <img src="assets/images/horiseon-code-refactor1.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Challenge 1 - Horiseon Marketing</h5>
-              <p>Code Refactor</p>
-              <a href="https://sophieebby.github.io/horiseon-code-refactor/" target="_blank"
-                class="btn btn-primary">Click
-                Here To See</a>
+    <section class="bg-black workContent" id="work">
+      <div class="container-fluid">
+        <h2 class="sectionHeading">Work</h2>
+        <div class="row"> <!--Row-->
+          <!-- Card 1 -->
+          <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
+            <div class="card workCard">
+              <img src="assets/images/horiseon-code-refactor1.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Challenge 1 - Horiseon Marketing</h5>
+                <p>Code Refactor project for a Marketing website</p>
+                <a href="https://sophieebby.github.io/horiseon-code-refactor/" target="_blank"
+                  class="btn btn-dark workbtn shadow-lg">Click
+                  Here To See</a>
+              </div>
             </div>
           </div>
-        </div>
-        <!-- End card 1 -->
-        <!-- Card 2 -->
-        <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
-          <div class="card">
-            <img src="assets/images/Portfolio1.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Challenge 2 - Portfolio</h5>
-              <p>Portfolio</p>
-              <a href="https://sophieebby.github.io/Sophie-Ebsworth-Portfolio/" target="_blank"
-                class="btn btn-primary">Click Here To See</a>
+          <!-- End card 1 -->
+          <!-- Card 2 -->
+          <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
+            <div class="card workCard">
+              <img src="assets/images/Portfolio1.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Challenge 2 - Portfolio</h5>
+                <p>Portfolio using the skills learnt in the first 2 weeks</p>
+                <a href="https://sophieebby.github.io/Sophie-Ebsworth-Portfolio/" target="_blank"
+                  class="btn btn-dark workbtn shadow-lg">Click Here To See</a>
+              </div>
             </div>
           </div>
-        </div>
-        <!-- End card 2 -->
-        <!-- Card 3 -->
-        <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
-          <div class="card">
-            <img src="https://placehold.co/600x400" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Application 3</h5>
-              <p>Coming Soon</p>
-              <a href="#" target="_blank" class="btn btn-primary">Coming Soon</a>
+          <!-- End card 2 -->
+          <!-- Card 3 -->
+          <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
+            <div class="card workCard">
+              <img src="https://placehold.co/600x400" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Application 3</h5>
+                <p>Coming Soon</p>
+                <a href="#" target="_blank" class="btn btn-dark workbtn shadow-lg">Coming Soon</a>
+              </div>
             </div>
           </div>
-        </div>
-        <!-- End card 3 -->
-      </div> <!--End row-->
-    </div>
+          <!-- End card 3 -->
+        </div> <!--End row-->
+      </div>
+    </section>
 
-      <!--Skills Section-->
-      <div class="container-fluid skillsContent" id="skills">
-      <h2 class="sectionHeading">Skills</h2>
-      <div class="row d-flex justify-content-center">
-        <div class="card " style="width: 18rem;">
-          <div class="card-header">
-            Skills
+    <!--Skills Section-->
+    <section class="bg-black  skillsContent" id="skills">
+      <div class="container-fluid">
+        <h2 class="sectionHeading">Skills</h2>
+        <div class="row d-flex">
+          <div class="col">
+            <div class="card" style="width: auto; background-color: transparent;">
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item list-group-item-action list-group-item-dark text-center">HTML5</li>
+                <li class="list-group-item list-group-item-action list-group-item-dark text-center">CSS3</li>
+                <li class="list-group-item list-group-item-action list-group-item-dark text-center">Bootstrap</li>
+                <li class="list-group-item list-group-item-action list-group-item-dark text-center">Git</li>
+                <li class="list-group-item list-group-item-action list-group-item-dark text-center">GitLab</li>
+                <li class="list-group-item list-group-item-action list-group-item-dark text-center">GitHub</li>
+                <li class="list-group-item list-group-item-action list-group-item-dark text-center">Visual Studios</li>
+                <li class="list-group-item list-group-item-action list-group-item-dark text-center">Terminal</li>
+                <li class="list-group-item list-group-item-action list-group-item-dark text-center">Flexbox</li>
+                <li class="list-group-item list-group-item-action list-group-item-dark text-center">Grid</li>
+                <li class="list-group-item list-group-item-action list-group-item-dark text-center">JavaScript</li>
+              </ul>
+            </div>
           </div>
-          <ul class="list-group list-group-flush">
-            <li class="list-group-item">HTML</li>
-            <li class="list-group-item">CSS</li>
-            <li class="list-group-item">Bootstrap</li>
-            <li class="list-group-item">Git</li>
-            <li class="list-group-item">GitLab</li>
-            <li class="list-group-item">GitHub</li>
-            <li class="list-group-item">Visual Studios</li>
-          </ul>
+          <div class="col">
+            <div class="card" style="width: auto; background-color: transparent;"></div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item list-group-item-action list-group-item-dark text-center">jQuery</li>
+              <li class="list-group-item list-group-item-action list-group-item-dark text-center">APIs</li>
+              <li class="list-group-item list-group-item-action list-group-item-dark text-center">Node.js</li>
+              <li class="list-group-item list-group-item-action list-group-item-dark text-center">NPM</li>
+              <li class="list-group-item list-group-item-action list-group-item-dark text-center">JSON</li>
+              <li class="list-group-item list-group-item-action list-group-item-dark text-center">ECMAScript6</li>
+              <li class="list-group-item list-group-item-action list-group-item-dark text-center">Object-Oriented Programing</li>
+              <li class="list-group-item list-group-item-action list-group-item-dark text-center">Test-Driven Development</li>
+              <li class="list-group-item list-group-item-action list-group-item-dark text-center">React.js</li>
+              <li class="list-group-item list-group-item-action list-group-item-dark text-center">React Hooks</li>
+              <li class="list-group-item list-group-item-action list-group-item-dark text-center">JSX</li>
+            </ul>
+          </div>
         </div>
       </div>
-    </div>
+      </div>
+    </section>
 
-      <!-- Contact Section-->
-      <div class="container-fluid contactContent" id="contact">
+    <!-- Contact Section-->
+    <section class="bg-black contactContent" id="contact">
+      <div class="container-fluid">
         <h2 class="sectionHeading">Contact Me</h2>
         <div class="row contact"> <!--Row-->
           <!-- Card 1 -->
           <div class="col-md-4 mb-3 mb-md-0">
-            <div class="card py-4 h-100">
+            <div class="card py-4 h-100 contactCard">
               <div class="card-body text-center">
                 <img src="assets/images/location-pin.png">
                 <h4 class="text-uppercase m-0">Address</h4>
@@ -153,7 +180,7 @@
           <!-- End card 1 -->
           <!-- Card 2 -->
           <div class="col-md-4 mb-3 mb-md-0">
-            <div class="card py-4 h-100">
+            <div class="card py-4 h-100 contactCard">
               <div class="card-body text-center">
                 <img src="assets/images/gmail.png">
                 <h4 class="text-uppercase m-0">Email</h4>
@@ -165,7 +192,7 @@
           <!-- End card 2 -->
           <!-- Card 3 -->
           <div class="col-md-4 mb-3 mb-md-0">
-            <div class="card py-4 h-100">
+            <div class="card py-4 h-100 contactCard">
               <div class="card-body text-center">
                 <img src="assets/images/smartphone.png">
                 <h4 class="text-uppercase m-0">Phone</h4>
@@ -177,16 +204,17 @@
           <!-- End card 3 -->
         </div> <!--End row-->
       </div>
+    </section>
   </main>
 
   <!--social media footer icons-->
-  <footer>
+  <footer class="bg-black">
     <div class="social d-flex justify-content-center">
       <a class="mx-2" href="https://www.instagram.com/sophieebby/" target="_blank"><i
-          class="fa-brands fa-instagram"></i></a>
+          class="fa-brands fa-instagram shadow-lg"></i></a>
       <a class="mx-2" href="https://open.spotify.com/user/21kntwkeviqield7pjiiurbny" target="_blank"><i
-          class="fa-brands fa-spotify"></i></a>
-      <a class="mx-2" href="https://github.com/SophieEbby" target="_blank"><i class="fab fa-github"></i></a>
+          class="fa-brands fa-spotify shadow-lg"></i></a>
+      <a class="mx-2" href="https://github.com/SophieEbby" target="_blank"><i class="fab fa-github shadow-lg"></i></a>
     </div>
   </footer>
 
