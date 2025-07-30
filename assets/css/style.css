@@ -47,11 +47,11 @@ p, h2 {
 }
 
 /*content padding*/
-.workContent, .skillsContent, .contactContent {
+.workContent, .skillsContent, .contactContent, .scadaContent {
   padding-top: 50px;
 }
 
-.aboutContent, .workContent, .skillsContent {
+.aboutContent, .workContent, .skillsContent, .scadaContent {
   background-color: rgba(255, 255, 255, 0.6);
 }
 
