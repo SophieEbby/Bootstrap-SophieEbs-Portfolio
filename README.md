@@ -2,13 +2,13 @@
 Sophie Ebsworth Portfolio Using Bootstrap
 ## Description
 
-This website is to showcase me to other people and businesses. It explains a litle bit about me, examples of work that I've done in front end devleopment, the skills I'm developing from the Front End Development bootcamp and how to contact me. 
+This website is to showcase me to other people and businesses. It explains a litle bit about me, examples of work that I've done in SCADA engineering and front end devleopment, the skills I've  developed over my career and how to contact me. 
 
 This website is built by using bootstrap and is a way to show my understanding and skills of bootstrap. 
 
 ## Usage
 
-There is a nav bar at the top of the page which is a way to navigate to the relevant sections (About Me, Work - this is a drop down to applications and skills, Contact Me)
+There is a nav bar at the top of the page which is a way to navigate to the relevant sections (About Me, Work - this is a drop down to applications, projects and skills, Contact Me)
 
 ![Screenshot of Portfolio page](https://github.com/SophieEbby/Bootstrap-SophieEbs-Portfolio/blob/main/assets/images/bootstrap-portfolio.png)
 
